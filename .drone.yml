@@ -28,7 +28,7 @@ deploy:
         urls:
             - https://$$MANTL_CONTROL/marathon/v2/apps/class/$$DOCKER_USERNAME/restart?force=true
 
-tify:
+notify:
     spark:
         image: hpreston/drone-spark
         auth_token: $$SPARK_TOKEN
